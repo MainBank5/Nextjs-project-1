@@ -9,9 +9,9 @@ import clsx from 'clsx';
 
 const Navlinks = [
     { id: 1, name: "Home", route: "/" },
-    { id: 2, name: "Projects", route: "/projects" },
-    { id: 2, name: "Testimonials", route: "/testimonials" },
+    { id: 2, name: "About", route: "/about" },
     { id: 2, name: "Skills", route: "/skills" },
+    { id: 2, name: "Projects", route: "/projects" },
     { id: 2, name: "Contact", route: "/contact" },
 ]
 const Navbar = () => {
