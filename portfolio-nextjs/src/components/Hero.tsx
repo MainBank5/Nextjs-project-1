@@ -1,7 +1,9 @@
+
 import Image from "next/image";
 import Link from 'next/link';
 import { FaGithub, FaLinkedinIn, FaArrowRight } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+
 
 export default function Hero() {
   return (
