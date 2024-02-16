@@ -16,7 +16,7 @@ const poppins = Poppins({ subsets: ["latin"], weight:[
 ] });
 
 export const metadata: Metadata = {
-  title: "Eliud Karuga | Portfolio",
+  title: "Eliud Karuga | Software Developer",
   description: "Backend Developer",
 };
 

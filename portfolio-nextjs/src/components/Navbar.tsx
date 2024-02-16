@@ -9,7 +9,7 @@ import ThemeSwitch from '@/components/ThemeSwitch'
 import clsx from 'clsx';
 
 const Navlinks = [
-    { id: 1, name: "Home", route: "/" },
+    { id: 1, name: "Home", route: "#" },
     { id: 2, name: "About", route: "#about" },
     { id: 2, name: "Skills", route: "#skills" },
     { id: 2, name: "Projects", route: "#projects" },
@@ -26,7 +26,7 @@ const Navbar = () => {
 
     const scrolling = useScroll()
     return (
-        <nav className="relative top-0 z-[99999] w-full  shadow-lg dark:shadow-emerald-500 ">
+        <nav className={`fixed top-0 z-[99999] w-full  shadow-lg dark:shadow-green-500 ${scrolling ? "top-0 backdrop-blur-md tranistion duration-150": "relative"} `}>
             <div className="max-width-[1400px] w-[91%] mx-auto flex justify-between items-center py-6 ">
                 <Link href="/">
                     <h1 className="font-bold text-green-400 text-3xl">Eliud</h1>
@@ -67,6 +67,8 @@ const Navbar = () => {
                             )
                         })}
                     </ul>
+
+
                 )}
             </div>
         </nav>

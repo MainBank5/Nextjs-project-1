@@ -6,6 +6,7 @@ export const useScroll = () => {
    useEffect(() => {
     const handleScroll = () => {
         setIsScrollin(window.scrollY > 0)
+        
     }
     window.addEventListener('scroll', handleScroll)
 
