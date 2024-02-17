@@ -19,6 +19,9 @@ const poppins = Poppins({ subsets: ["latin"], weight:[
 export const metadata: Metadata = {
   title: "Eliud Karuga | Software Developer",
   description: "Backend Developer",
+  icons: {
+    icon: "/eliud.png",
+  },
 };
 
 export default function RootLayout({

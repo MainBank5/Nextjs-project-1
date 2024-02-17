@@ -24,6 +24,11 @@ const Navbar = () => {
         setOpenMobile(!openMobile)
     }
 
+    const handleMenuItemClick = () => {
+        // Close the mobile menu when a menu item is clicked
+        setOpenMobile(false);
+    };
+
     const scrolling = useScroll()
     return (
         <nav className={`fixed top-0 z-[99999] w-full  shadow-lg dark:shadow-green-500 ${scrolling ? "top-0 backdrop-blur-md tranistion duration-150": "relative"} `}>
@@ -62,7 +67,7 @@ const Navbar = () => {
                                 <Link href={link.route} key={link.id}
                                 className={clsx('text-white', {"text-black":pathName === link.name})}
                                 >
-                                <li>{link.name}</li>
+                                <li className="py-6" onClick={handleMenuItemClick}>{link.name}</li>
                                 </Link>
                             )
                         })}
