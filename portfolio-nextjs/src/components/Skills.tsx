@@ -7,7 +7,7 @@ export default function Skills() {
           <h3 className="text-center text-4xl md:text-5xl font-bold text-green-500 mb-10">Skills</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             <SkillCard imageName="/css.webp" altText="icon-css" />
-            <SkillCard imageName="/javascript.png" altText="icon-javascript" />
+            <SkillCard imageName="/javascript.png"  altText="icon-javascript" />
             <SkillCard imageName="/typescript-icon.png" altText="icon-typescript" />
             <SkillCard imageName="/react.png" altText="icon-react" />
             <SkillCard imageName="/nextjs.png" altText="icon-nextjs" />
