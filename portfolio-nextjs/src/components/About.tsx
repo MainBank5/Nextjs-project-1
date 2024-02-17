@@ -14,9 +14,9 @@ export default function About() {
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-between ">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mb-10 md:mb-0 max-md:order-2">
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4 p-4">
-                            <AboutCard title="Experience" icon={<IoMdRibbon />} desc="2 Years" />
-                            <AboutCard title="Projects" icon={<GoTrophy />} desc="4+ Projects" />
-                            <AboutCard title="Clients" icon={<VscSmiley />} desc="2 clients" />
+                            <AboutCard title="Experience" icon={() => <IoMdRibbon />} desc="2 Years" />
+                            <AboutCard title="Projects" icon={ () => <GoTrophy />} desc="4+ Projects" />
+                            <AboutCard title="Clients" icon={() => <VscSmiley />} desc="2 clients" />
                         </div>
                         <p className="text-lg md:text-xl lg:text-xl mb-6 text-center md:text-left px-4">
                             I&#39;m a Full stack Javascript/Typescript Web Developer with over 2 years of experience building with React, Next.js, and Django. I excel in turning design concepts into scalable, user-friendly websites and apps. My focus is on crafting user-centric, responsive interfaces that marry stunning aesthetics with top-notch functionality. From concept to code, I&#39;m here to bring your digital visions to life, creating immersive experiences that captivate and resonate with the audience.
