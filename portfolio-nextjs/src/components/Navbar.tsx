@@ -31,7 +31,7 @@ const Navbar = () => {
 
     const scrolling = useScroll()
     return (
-        <nav className={`fixed top-0 z-[99999] w-full  shadow-lg dark:shadow-green-500 ${scrolling ? "top-0 backdrop-blur-md tranistion duration-150": "relative"} `}>
+        <nav className={`fixed top-0 z-[99999] w-full  shadow-lg dark:shadow-green-500 ${scrolling ? "top-0 backdrop-blur-md tranistion duration-150" : "relative"} `}>
             <div className="max-width-[1400px] w-[91%] mx-auto flex justify-between items-center py-6 ">
                 <Link href="/">
                     <h1 className="font-bold text-green-400 text-3xl">Eliud</h1>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     })}
 
                 </ul>
-                <ThemeSwitch/>
+                <ThemeSwitch />
 
                 <div className="md:hidden block z-10 text-3xl text-black dark:text-white cursor-pointer transition duration-200" onClick={handleMobile}>
                     {openMobile ? <MdClose /> : <FiMenu />}
@@ -63,11 +63,11 @@ const Navbar = () => {
                     <ul className="md:hidden bg-green-500 absolute w-full h-screen top-0 left-0 px-4 py-6
                     text-center rounded-md flex flex-col justify-center items-center gap-3 shadow-md">
                         {Navlinks.map((link) => {
-                            return(
+                            return (
                                 <Link href={link.route} key={link.id}
-                                className={clsx('text-white', {"text-black":pathName === link.name})}
+                                    className={clsx('text-white', { "text-black": pathName === link.name })}
                                 >
-                                <li className="py-6" onClick={handleMenuItemClick}>{link.name}</li>
+                                    <li className="py-6" onClick={handleMenuItemClick}>{link.name}</li>
                                 </Link>
                             )
                         })}
