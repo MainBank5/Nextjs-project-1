@@ -11,13 +11,13 @@ export default function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-2 py-6 shadow-md rounded-lg">
 
                     <div className="px-6 object-cover bg-no-repeat relative">
-                        <Image src="/fitness.jpg" alt="fitnessweb" width={400} height={400} className="rounded-md" />
+                        <Image src="/ecommerce.png" alt="fitnessweb" width={400} height={400} className="rounded-md" />
                         
                         <div className="flex flex-col items-center justify-center py-2">
-                            <h1>A fitness website built with Nextjs</h1>
+                            <h1>E-commerce Website</h1>
                             <div className="flex justify-center items-center py-4 md:py-8">
-                                <a href="#" target="_blank" className="text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md">Live Demo</a>
-                                <a href="#" target="_blank" className="text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md ">Code</a>
+                                <a href="https://ecommerce-green-phi.vercel.app/" target="_blank" className="text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md">Live Demo</a>
+                                <a href="https://github.com/MainBank5/ecommerce/tree/main/dist" target="_blank" className="text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md ">Code</a>
                             </div>
                         </div>
                     </div>
