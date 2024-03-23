@@ -1,1 +1,1 @@
-An ecommerce site built with React, tailwindcss, and typescript, React redux 
+My web portolio website(SSG) built with Next.js and Typescript. 
