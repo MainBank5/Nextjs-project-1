@@ -11,7 +11,7 @@ export default function Projects() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-2 py-6 shadow-md rounded-lg">
 
                     <div className="px-6 object-cover bg-no-repeat relative">
-                        <Image src="/ecommerce.png" alt="fitnessweb" width={400} height={400} className="rounded-md" />
+                        <Image src="/ecommerce.png" alt="fitnessweb" width={600} height={600} className="rounded-md" />
                         
                         <div className="flex flex-col items-center justify-center py-2">
                             <h1>E-commerce Website</h1>
