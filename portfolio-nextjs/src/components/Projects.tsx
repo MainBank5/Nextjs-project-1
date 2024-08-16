@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Projects() {
     return (
         <div id="projects" className="min-h-screen w-full flex justify-center items-center py-10 md:py-28">
-            <div className="mx-auto w-4/5">
+            <div className="container w-4/5">
                 <h2 className="text-4xl md:text-5xl text-green-400 mb-9 text-center">Projects</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-2 py-6 shadow-md rounded-lg">
@@ -23,7 +23,7 @@ export default function Projects() {
                     </div>
 
                     <div className="px-6 bg-no-repeat object-cover">
-                        <Image src="/appointment-app.png" alt="fitnessweb" width={600} height={600} className="rounded-md" />
+                        <Image src="/appointment.png" alt="fitnessweb" width={600} height={600} className="rounded-md" />
                         
                         <div className="flex flex-col justify-center items-center py-2">
                             <h1>MedCare</h1>

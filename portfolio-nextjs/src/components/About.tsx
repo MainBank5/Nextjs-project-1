@@ -9,7 +9,7 @@ import AboutCard from "@/UI/aboutcard";
 export default function About() {
     return (
         <div id="about" className="w-full py-10 md:py-24 flex justify-center items-center min-h-screen">
-            <div className="max-w-6xl w-full flex flex-col justify-center items-center">
+            <div className="container flex flex-col justify-center items-center">
                 <h2 className="text-4xl md:text-5xl text-center mt-20 mb-10">About Me</h2>
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-between ">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mb-10 md:mb-0 max-md:order-2">
