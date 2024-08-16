@@ -23,7 +23,7 @@ export default function Projects() {
                     </div>
 
                     <div className="px-6 bg-no-repeat object-cover">
-                        <Image src="/appointment-app.png" alt="fitnessweb" width={600} height={600} className="rounded-md" />
+                        <Image src="/appointment.png" alt="fitnessweb" width={600} height={600} className="rounded-md" />
                         
                         <div className="flex flex-col justify-center items-center py-2">
                             <h1>MedCare</h1>
