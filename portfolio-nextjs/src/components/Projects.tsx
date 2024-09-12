@@ -28,7 +28,7 @@ export default function Projects() {
                         <div className="flex flex-col justify-center items-center py-2">
                             <h1>MedCare</h1>
                             <div className="flex justify-end items-center py-4 text-center">
-                                <a href="http://c0gs8gscookwgww8ssgscs00.164.92.186.25.sslip.io" target="_blank" className=" text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md">Live Demo</a>
+                                <a href="http://poggg0wss8ss8wkss8oc0g0o.164.90.182.75.sslip.io/" target="_blank" className=" text-center mx-4 py-2 px-4 border-green-500 border-2 rounded-md">Live Demo</a>
                                 <a href="https://github.com/MainBank5/Appointment-booking-system" target="_blank" className="text-center mx-4 py-2 px-4  border-green-500 border-2 rounded-md">Code</a>
                             </div>
                         </div>
